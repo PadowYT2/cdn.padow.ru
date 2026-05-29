@@ -1,0 +1,15 @@
+{
+    "name": "cdn.padow.ru",
+    "type": "module",
+    "scripts": {
+        "build": "wrangler deploy"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.4.14",
+        "@cloudflare/workers-types": "^4.20260507.1",
+        "@tsconfig/strictest": "^2.0.8",
+        "@types/bun": "^1.3.13",
+        "typescript": "^6.0.3",
+        "wrangler": "^4.88.0"
+    }
+}
